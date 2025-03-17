@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="NPCDialogue" src="project://database/Assets/UnityTechnologies/StarterAsset/MyNPCDialogue.uxml?fileID=9197481963319205126&amp;guid=8ec1c51e5a7e5cc48a162b2f0b8d223c&amp;type=3#MyNPCDialogue" />
+    <ui:VisualElement name="HealthBarBackground" style="background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/UIHealthFrame.png?fileID=21300000&amp;guid=e04807cd45105ec409b00463fe6ab7b1&amp;type=3#UIHealthFrame&quot;); flex-direction: column-reverse; align-items: flex-start; justify-content: flex-end; align-self: stretch; background-color: rgba(32, 79, 207, 0); width: 425px; height: 246px; -unity-background-scale-mode: scale-to-fit;">
+        <ui:VisualElement name="HealthBarContainer" style="background-image: none; width: 425px; height: 246px; background-color: rgba(56, 56, 56, 0);">
+            <ui:VisualElement name="HealthBar" style="background-image: url(&quot;project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/Art/Ruby/UI/UIHealthBar.png?fileID=21300000&amp;guid=292bb6b60652e5541aa6fd8507b5087e&amp;type=3#UIHealthBar&quot;); width: 237px; height: 65px; position: absolute; top: 85px; left: 175px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" style="background-image: url(&quot;project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/Art/Ruby/UI/CharacterPortrait.png?fileID=21300000&amp;guid=ec73128b64458a947a9603ad250e5956&amp;type=3#CharacterPortrait&quot;); -unity-background-scale-mode: scale-to-fit; width: 230px; height: 163px; flex-direction: column; align-self: flex-start; justify-content: center; align-items: stretch; position: absolute; top: 39px; left: 0;" />
+    </ui:VisualElement>
+    <ui:Instance template="NPCDialogue" name="NPCDialogue" />
+</ui:UXML>
